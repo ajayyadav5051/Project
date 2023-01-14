@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#hour, #min, #sec, #zone {
+    background-color: lightcoral;
+    padding:10px;
+    font-size: 30px;
+}
+
+#setHour, #setMinutes, #setSeconds {
+    padding:10px;
+    font-size:30px;
+    margin: 10px;
+}
+.divider {
+    font-size: 30px;
+    padding: 5px;
+}
+.setAlarm {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.setAlarmBtn {
+    height: 40px;
+margin-top: 20px;
+font-size: 18px;
+background-color: lightgreen;
+border-radius: 20px;
+margin-left: 20px;
+}
+.alarmList {
+    width: 300px;
+background-color: cadetblue;
+padding: 10px 20px;
+margin-left: 35%;
+font-size: 22px;
+border-bottom: 2px solid;
+display: flow-root;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.divider2{
+    margin: 10px;
+    font-size: 30px;
+    padding: 5px;
+}

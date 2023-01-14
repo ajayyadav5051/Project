@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+<div>
+    <div class="clock">
+        <!-- <div id="time"></div> -->
+        <div id="hour">hour</div><div class="divider">:</div>
+        <div id="min">Min</div><div class="divider">:</div>
+        <div id="sec">sec</div><div class="divider">:</div>
+        <div id="zone">zone</div>
+    </div>
+
+    <div class="setAlarm">
+        <!-- <form > -->
+            <input type="number" id="setHour" name="quantity" min="0" max="24" placeholder="hr"><div class="divider2">:</div>
+            <input type="number" id="setMinutes" name="quantity" min="0" max="60" placeholder="mm"><div class="divider2">:</div>
+            <input type="number" id="setSeconds" name="quantity" min="0" max="60" placeholder="sec">
+                <button class="setAlarmBtn" onclick="setAlarm()">Set Alarm</button>
+          <!-- </form> -->
+    </div>
+
+    <div id="alarms">
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
